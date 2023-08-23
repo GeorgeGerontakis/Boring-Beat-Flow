@@ -1,0 +1,8 @@
+paramiko==3.2.0
+pytube==15.0.0
+soundfile==0.11.0
+librosa==0.9.2
+proglog==0.1.10
+moviepy==1.0.3
+argparse==1.4.0
+google-api-python-client
