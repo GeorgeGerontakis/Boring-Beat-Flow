@@ -19,7 +19,7 @@ The creator of "Boring Beat Flow" appreciates your interest in the project and h
 graph TD;
     A[Gets channel's videos links using YouTube API]-->B[Donloads those videos as mp4];
     B-->C[Converts mp4 to wav]
-    C-->D[Identifies sound volume peaks as beat and samples 6 seconds of the beat part]
+    C-->D[Identifies sound volume peaks as beat]
     D-->E[Samples 6 seconds of the beat part]
     E-->F[Saves the beat sample as wav]
     F-->G[Converts the wav beat samples to raw]
